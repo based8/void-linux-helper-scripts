@@ -33,3 +33,6 @@ Set-up the required config files for vfio-pci to work. Be ware that this script 
 ```
 sudo ./vfio-setup.sh
 ```
+## OpenWRT panel
+Basically this script just switches ips of the selected device to 192.168.1.10/24
+More on the OpenWRT section is here https://github.com/based8/OpenWRT_subnet_VM
