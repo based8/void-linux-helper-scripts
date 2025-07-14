@@ -29,7 +29,7 @@ to remove the isolation use
 sudo ./cpu-isol-rem.sh
 ```
 ## VFIO configuration setup
-Set-up the required config files for vfio-pci to work. Be ware that this script only works on a Muxless NVIDIA GPU system with dracut
+Set-up the required config files for vfio-pci to work. Be ware that this was made for a a Muxless NVIDIA GPU system with dracut
 ```
 sudo ./vfio-setup.sh
 ```
